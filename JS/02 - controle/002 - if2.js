@@ -5,5 +5,5 @@ function teste1(num) {
 	console.log("Final");
 }
 teste1(6);
-teste2(8);
+teste1(8);
 
