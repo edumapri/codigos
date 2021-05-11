@@ -11,16 +11,16 @@ const imprimirResultado = function (nota) {
             console.log("Recuperação");
             break;
         case 3: case 2: case 1: case 0:
-            console.log(Reprovado)
+            console.log("Reprovado");
             break;
         default:
             console.log("Nota inválida"); 
     }
 }
 
-imprimirResultado(10);// Saída: 
-imprimirResultado(8.9);
-imprimirResultado(6.55);
+imprimirResultado(10);// Saída: Quadro de honra
+imprimirResultado(8.9);// Saída: Aprovado
+imprimirResultado(6.55);// Saída: Recuperação
 imprimirResultado(2.3);
 imprimirResultado(-1);
 imprimirResultado(11);
