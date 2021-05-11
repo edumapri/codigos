@@ -8,4 +8,4 @@ const imprimirResultado = function(nota){
 
 imprimirResultado(10);
 imprimirResultado(4);
-imprimirResultafo("Epa!");
+imprimirResultafo("Epa!");//erro
