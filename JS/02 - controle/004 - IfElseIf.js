@@ -1,6 +1,8 @@
+
 Number.prototype.entre = function (inicio, fim){
     return this >= inicio && this <= fim
 }
+
 
 const imprimirResultado = function (nota){
     if (nota.entre(9, 10)){
@@ -16,10 +18,10 @@ const imprimirResultado = function (nota){
     }
 }
 
-imprimirResultado(10);// Saída: 
-imprimirResultado(8.9);
-imprimirResultado(6.55);
-imprimirResultado(2.3);
-imprimirResultado(-1);
-imprimirResultado(11);
+imprimirResultado(10);// Saída: Quadro de honra
+imprimirResultado(8.9);// Saída: Aprovado
+imprimirResultado(6.55);// Saída: Recuperação
+imprimirResultado(2.3);// Saída: Reprovado
+imprimirResultado(-1);// Saída: Nota inválida
+imprimirResultado(11);// Saída: Nota inválida
 
