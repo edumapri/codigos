@@ -21,7 +21,7 @@ const imprimirResultado = function (nota) {
 imprimirResultado(10);// Saída: Quadro de honra
 imprimirResultado(8.9);// Saída: Aprovado
 imprimirResultado(6.55);// Saída: Recuperação
-imprimirResultado(2.3);
-imprimirResultado(-1);
-imprimirResultado(11);
+imprimirResultado(2.3);// Saída: Reprovado
+imprimirResultado(-1);// Saída: Nota inválida
+imprimirResultado(11);// Saída: Nota inválida
 
