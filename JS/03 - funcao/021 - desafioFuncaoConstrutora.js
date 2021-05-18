@@ -7,5 +7,5 @@ function Pessoa(nome) {
 }
 
 const p1 = new Pessoa("João");
-p1.falar();
-console.log(p1.nome);
+p1.falar();// Saída: Meu nome é João
+console.log(p1.nome);// Saída: João
